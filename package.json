@@ -1,0 +1,29 @@
+{
+  "name": "eloqua",
+  "version": "1.0.0",
+  "description": "Eloqua REST API client.",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "build:watch": "tsc --watch",
+    "lint": "tslint --project \"./tsconfig.json\"",
+    "test": "tsc ./test/*.ts && mocha --reporter spec"
+  },
+  "author": "Mehrdad Youssefi (themehrdad@gmail.com)",
+  "repository": {
+    "url": ""
+  },
+  "license": "ISC",
+  "dependencies": {
+    "request": "2.88.0"
+  },
+  "devDependencies": {
+    "@types/chai": "^4.2.0",
+    "@types/mocha": "^5.2.7",
+    "@types/node": "^12.7.1",
+    "chai": "^4.2.0",
+    "mocha": "^6.2.0",
+    "tslint": "^5.18.0",
+    "typescript": "^3.5.3"
+  }
+}
